@@ -36,7 +36,8 @@ We prepare a demo code so that you can have a better understanding on the workfl
  
 We use the source code from [Zhu et al.](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). Please follow the training tips [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md) for pre-training the image-to-image translation networks. Please adjust the image size based on the GPU memory.
 
-#### Note: We found that the training of image-to-image translation network is not very stable since the domain gap between synthetic datasets and real-world datasets are large. Sometimes, the results will have severe visual artifacts or distortions. Based on our experience, we found that resizing images to resolution higher than 384x384 will implicitly alleviate this issue.
+#### Note: 
+We found that the training of image-to-image translation network is not very stable since the domain gap between synthetic datasets and real-world datasets is large. Sometimes, the results will have severe visual artifacts or distortions. Based on our experience, we found that resizing images to resolution higher than 384x384 will implicitly alleviate this issue.
 
 
 ## Training the task network
